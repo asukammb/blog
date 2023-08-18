@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background-image: linear-gradient(to top, #999999, #5a99eb);
+}
+
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 1000px;
+    font-size: 0px;
+}
+
+#banner img {
+    width: 1000px;
+
+}
+
+nav {
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #020C16;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a88da;
+}
+
+h2 {
+    box-sizing: border-box;
+    padding-left: 100px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+}
+.form-wrapper{
+    line-height: 50px;
+}
+
+.input-item{
+    border: 2px solid rgb(114, 139, 143);  /* 枠線 */
+    border-radius: 0.67em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    width: 20em;             /* 横幅 */
+    height: 20px;           /* 高さ */
+    font-size: 1em;          /* 文字サイズ */
+    line-height: 10px;
+    text-align: center;
+    outline:solid 2px black;
+    float: right;
+    
+}
+#detail{
+    width: 800px;
+    text-align: right;
+    float: right;
+}
+
+footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #CCD0D9;
+}
+
+
+hr{
+        width:97%;
+    }
+
+
+.copyright{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration:none;
+}
+a {
+    text-decoration:none
+}
+
+
+
