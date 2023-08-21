@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/css/blog_edit.css}">
+</head>
+
+<body>
+    <div id="bigbox">
+        <div id="banner">
+            <img src="\img\banner.png" alt="">
+        </div>
+        <nav>
+            <a class="now" href="">Home</a>
+            <a href="Blog Register.html">Blog Register</a>
+            <a href="Delete List.html">Delete List</a>
+            <a href="Logout.html">Logout</a>
+        </nav>
+        <div id="main"><form action="@{/be}" method="post">
+            <h2>ブログ編集画面</h2><br>
+            <div class="form-wrapper">
+                <p>タイトル<input type="text" name="title" class="input-item"></p>
+                <p>日付<input type="date" name="date" id="date" class="input-item"></p>
+                <p>カテゴリ<input type="text" name="category" class="input-item"></p>
+                <p>画像
+                <form action="test.html" id="photo" method="post" enctype="multipart/form-data"><input type="file"
+                        name="test" required>
+                </form>
+                </p>
+
+                <label for="textInput">詳細</label>
+                <input type="text" id="detail" name="detail" class="input-item">
+            </div>
+            <div class="center-container">
+                <button type="submit" id="submit">更新</button>
+                <button type="button" onclick="history.back()">戻る</button>
+                <button type="submit" id="delete">削除</button>
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <p class="copyright">
+                © 2023 everything will be better
+                <br><a href="https://www.google.com/" target="_blank">疑問があればここにクリック!</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
